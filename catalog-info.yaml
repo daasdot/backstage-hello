@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: csx-backstage-hello
+  description: An example deployment of a Backstage application.
+  annotations:
+    github.com/project-slug: daasdot/backstage-hello
+spec:
+  type: website
+  owner: dibset
+  lifecycle: experimental
+  consumesApis:
+    - demo-graphql
